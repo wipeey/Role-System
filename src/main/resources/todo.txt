@@ -1,0 +1,18 @@
+COMMANDS:
+    /assign all (randomly assign a role to someone or everyone)
+    /roles list
+
+Make cooldown for armor making
+On each reload reassign roles ? (to avoid role being set if disabled)
+Implement Essentials / Claims
+Woodcutter => Carpenter ?
+When config mineable blocks left empty, still cannot break some blocks for some mysterious reason
+
+ROLES:
+    Fisherman
+    Engineer
+    Knight
+
+CONFIG:
+    Change assign role mode (ex: random, /set only...)
+    List for roles ? (Farmer: farmable seeds ||| Breeder: idk bro figure it out

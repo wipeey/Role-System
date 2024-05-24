@@ -1,0 +1,35 @@
+name: RoleSystem
+version: 1.0.0
+main: io.github.rolesystem.RoleSystem
+api-version: 1.20
+author: wipeey
+description: Plugin to restrict some actions to some jobs. Assigns jobs to players.
+
+commands:
+  setrole:
+    description: Set a role to specific player (or yourself)
+    usage: /setrole <nickname> <role>
+    permission: fidem.setrole
+
+  role:
+    description: See someone's role (or yourself)
+    usage: /role <nickname> optional
+    permission: fidem.role
+
+  rolesreset:
+    description: Reset players roles
+    usage: /reset
+    permission: fidem.rolesreset
+
+permissions:
+  fidem.setrole:
+    description: Sets a role to a user
+    default: op
+
+  fidem.role:
+    description: See someone's role
+    default: true
+
+  fidem.rolesreset:
+    description: Allows you to reset players roles
+    default: op

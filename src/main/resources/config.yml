@@ -1,0 +1,94 @@
+messages:
+  # Send "You are {role}" message when a player joins the server
+  welcomeRole: true
+
+  # Send "You are not a {role}" error when performing illegal action
+  errorRole: true
+
+roles:
+  # Is it required for a role to be connected to limit actions
+  requireConnected: true
+
+  # Remove player from players roles list if he's banned
+  removeIfBanned: true
+
+  # Manage roles
+  farmer:
+    enabled: true
+
+  miner:
+    enabled: true
+    mineable-blocks:
+      - COAL_ORE
+      - DEEPSLATE_COAL_ORE
+      - IRON_ORE
+      - DEEPSLATE_IRON_ORE
+      - GOLD_ORE
+      - DEEPSLATE_GOLD_ORE
+      - REDSTONE_ORE
+      - DEEPSLATE_REDSTONE_ORE
+      - LAPIS_ORE
+      - DEEPSLATE_LAPIS_ORE
+      - DIAMOND_ORE
+      - DEEPSLATE_DIAMOND_ORE
+      - EMERALD_ORE
+      - DEEPSLATE_EMERALD_ORE
+      - COPPER_ORE
+      - DEEPSLATE_COPPER_ORE
+      - NETHER_QUARTZ_ORE
+      - NETHER_GOLD_ORE
+      - ANCIENT_DEBRIS
+
+  smith:
+    enabled: true
+    craftable-items:
+      - LEATHER_HELMET
+      - LEATHER_CHESTPLATE
+      - LEATHER_LEGGINGS
+      - LEATHER_BOOTS
+      - IRON_HELMET
+      - IRON_CHESTPLATE
+      - IRON_LEGGINGS
+      - IRON_BOOTS
+      - GOLDEN_HELMET
+      - GOLDEN_CHESTPLATE
+      - GOLDEN_LEGGINGS
+      - GOLDEN_BOOTS
+      - DIAMOND_HELMET
+      - DIAMOND_CHESTPLATE
+      - DIAMOND_LEGGINGS
+      - DIAMOND_BOOTS
+      - TURTLE_HELMET
+      - NETHERITE_HELMET
+      - NETHERITE_CHESTPLATE
+      - NETHERITE_LEGGINGS
+      - NETHERITE_BOOTS
+      - LEATHER_HORSE_ARMOR
+      - IRON_HORSE_ARMOR
+      - GOLDEN_HORSE_ARMOR
+      - DIAMOND_HORSE_ARMOR
+
+  breeder:
+    enabled: true
+
+  woodcutter:
+    enabled: true
+    mineable-blocks:
+      - ACACIA_LOG
+      - BIRCH_LOG
+      - CHERRY_LOG
+      - DARK_OAK_LOG
+      - JUNGLE_LOG
+      - MANGROVE_LOG
+      - OAK_LOG
+      - SPRUCE_LOG
+      - CRIMSON_STEM
+      - WARPED_STEM
+
+    craftable-items:
+
+  enchanter:
+    enabled: false
+    usable-blocks:
+      - ENCHANTING_TABLE
+      - BREWING_STAND
