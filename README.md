@@ -4,7 +4,7 @@
 
 Role System is a 1.20 Spigot plugin for Minecraft servers. It assigns specific roles to players. The way it assigns the roles depends on the selected config options. Depending on their job, players may or may not perform some actions (e.g: a farmer cannot mine diamond). 
 
-This enhanches exchanges and helps developping a real economy between players. It's also a good way to prevent farming and highlight the need of cooperation.
+This enhances exchanges and helps developping a real economy between players. It's also a good way to prevent farming and highlight the need of cooperation.
 
 I was looking for such a plugin for almost two years... I couldn't find one, so I figured I would code it myself. 80% of what the plugin does if configurable in the config file.
 
