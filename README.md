@@ -1,6 +1,5 @@
 # 💼 Role System
 
----
 
 Role System is a 1.20 Spigot plugin for Minecraft servers. It assigns specific roles to players. The way it assigns the roles depends on the selected config options. Depending on their job, players may or may not perform some actions (e.g: a farmer cannot mine diamond). 
 
@@ -10,13 +9,26 @@ I was looking for such a plugin for almost two years... I couldn't find one, so 
 
 ---
 
+## 🧑‍🌾 Jobs
+
+- 🌾 Farmer ➜ Farms and plants seeds.
+- 🐄 Breeder ➜ Breeds and attracts animals with seeds.
+- 🪵 Woodcutter ➜ Cuts wood.
+- ⛏️ Miner ➜ Mines.
+- 🔥 Smith ➜ Crafts tools and armors.
+- 🧙‍♂️ Enchanter ➜ Uses enchant table and create magic potions.
+
+---
+
 ## ⚙️ Installation
 
-- Install Spigot 1.20 on your Minecraft server by following [a documentation](https://hub.tcno.co/games/minecraft/1.20/server/spigot/) online.
+- Install Spigot 1.20 on your Minecraft server by following [a documentation](https://hub.tcno.co/games/minecraft/1.20/server/spigot/) online
 - Drag and drop the RoleSystem.jar in your plugins folder
 - Restart the server
 - Check the config.yml file and edit it as you like, or leave it as is
 - Reload to upload your modifications
+
+---
 
 ## 💾 Player Database 
 
@@ -25,6 +37,8 @@ I handled the player roles database and the available roles/roles counts databas
 You can modify some parameters in the csv files directly, but I highly encourage you to rather do what you have to do using commands. 
 
 > /help in game for more informations. (or search the code)
+
+---
 
 ## 📜 Post Scriptum
 
